@@ -1,94 +1,67 @@
-\# Sovereignty Control System — Documentation Index
+# Sovereignty Control System (SCS)
 
+**Status:** Final · Reference-Grade · Parked  
+**Canonical Runtime:** v1.4 (Policy Bundles + Signatures + Replay Context)  
+**Purpose:** Governance accountability, explicit authority, and immutable decision history
 
+---
 
-This directory contains public-facing documentation for the Sovereignty Control System (SCS).
+## Overview
 
+The **Sovereignty Control System (SCS)** is an opinionated governance accountability system designed to make **power explicit, bounded, and permanently reviewable**.
 
+SCS exists to answer one question with certainty:
 
-\## Orientation
+> *Who was allowed to do what, under which policy, and why — and can that answer still be independently verified later without trusting the operator?*
 
+SCS treats any decision that cannot be reviewed after the fact as **illegitimate by definition**.
 
+---
 
-\- \*\*High-level overview\*\*
+## What SCS Is — and Is Not
 
-&nbsp; - `OVERVIEW.md`
+SCS **is**:
+- A governance accountability reference system
+- A proof artifact for explicit authority and auditability
+- A deterministic policy → decision → enforcement engine
+- An immutable historical record of sovereign action
 
-&nbsp; - `REVIEWER\_INTRO.md`
+SCS **is not**:
+- A permissions framework
+- A workflow engine
+- A role-based access control system
+- A general-purpose orchestration platform
+- A product intended for ongoing feature development
 
-&nbsp; - `REVIEWER\_FRAMING\_NOTE.md`
+---
 
+## System Finality
 
+SCS is **complete by design**.
 
-\- \*\*Grant and positioning materials\*\*
+The system is intentionally frozen at **v1.4**, which serves as the **canonical, authoritative runtime**. No further feature development is planned unless driven by explicit external mandate.
 
-&nbsp; - `SCS\_GRANT\_NARRATIVE.md`
+This finality is a guarantee, not a limitation.
 
-&nbsp; - `SCS\_POSITIONING\_ONE\_PAGER.md`
+Any extension or modification would weaken the system’s core assurances:
+- Immutable history
+- Non-retroactive legitimacy
+- Explicit authority declaration
+- Bounded emergency power
 
-&nbsp; - `ACQUISITION\_MEMO.md`
+---
 
+For the governing principles and non-negotiable finality constraints of the system, see `docs/SCS_DOCTRINE.md`.
 
+---
 
-\- \*\*Architecture and technical design\*\*
+## Canonical Runtime Anchor
 
-&nbsp; - `ARCHITECTURE\_SUMMARY\_NONTECH.md`
+All review, audit, or verification **must** anchor to the immutable release tag:
 
-&nbsp; - `ARCHITECTURE\_SUMMARY\_TECHNICAL.md`
+```bash
+git checkout v1.4-policy-bundle-signatures
 
-&nbsp; - `TECHNICAL\_APPENDIX.md`
-
-&nbsp; - `ENFORCEMENT\_MODEL.md`
-
-&nbsp; - `V10\_ENFORCEMENT\_LOG\_INTEGRITY.md`
-
-&nbsp; - `V11\_DECISION\_REPLAY\_DESIGN.md`
-
-
-
-\- \*\*Governance and philosophy\*\*
-
-&nbsp; - `SCS\_DOCTRINE.md`
-
-&nbsp; - `SCS\_APPLIED\_GOVERNANCE\_CHARTER\_TEMPLATE.md`
-
-&nbsp; - `IDENTITY\_AUTHORITY\_MODEL.md`
-
-&nbsp; - `OWNERSHIP\_AND\_PROVENANCE.md`
-
-&nbsp; - `SCS\_PHILOSOPHICAL\_SYNTHESIS.md`
-
-
-
-\- \*\*Versioned evolution notes\*\*
-
-&nbsp; - `V08\_EXECUTION\_MODEL.md`
-
-&nbsp; - `V09\_ENFORCEMENT\_HOOKS.md`
-
-&nbsp; - `V10\_POLICY\_VERSIONING\_DESIGN.md`
-
-&nbsp; - `V11\_ENFORCEMENT\_CORRELATION\_DESIGN.md`
-
-&nbsp; - `V12\_POLICY\_EVOLUTION\_PLAN.md`
-
-&nbsp; - `V12\_REVIEWER\_NOTES.md`
-
-&nbsp; - `V15\_DESIGN\_OVERVIEW.md`
-
-
-
-For a guided reading path, start with:
-
-
-
-1\. `OVERVIEW.md`
-
-2\. `REVIEWER\_INTRO.md`
-
-3\. `ARCHITECTURE\_SUMMARY\_NONTECH.md`
-
-4\. `ARCHITECTURE\_SUMMARY\_TECHNICAL.md`
 
 
 
